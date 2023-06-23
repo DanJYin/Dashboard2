@@ -1,0 +1,300 @@
+﻿STUDY,PART,MATRIX,TREATMENT,ANALYTE,SUBJECT,STATUS,DOSE,TIME,CONCENTRATION,VOMIT
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,0,0,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,0.5,19,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,1,53,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,2,110,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,4,90,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,6,45,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,8,38,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,12,24,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,16,15,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,24,13,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,36,4,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,48,3,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,72,1,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,96,0,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED001,FED,100,168,0,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,0,0,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,0.5,17.1,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,1,47.7,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,2,99,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,4,81,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,6,40.5,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,8,34.2,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,12,21.6,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,16,13.5,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,24,11.7,N
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,36,3.6,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,48,2.7,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,72,0.9,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,96,0,Y
+EXAMT-01-01,SAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED002,FAST,100,168,0,Y
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,0,0,N
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,0.5,15.39,N
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,1,42.93,N
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,2,89.1,Y
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,4,72.9,Y
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,6,36.45,Y
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,8,30.78,Y
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,12,19.44,Y
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,16,12.15,Y
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,24,10.53,Y
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,36,3.24,Y
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,48,2.43,Y
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,72,0.81,Y
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,96,0,N
+EXAMT-01-01,MAD,Plasma,100 mg EXAMT-01,EXAMT-01,BLINDED003,FAST,100,168,0,N
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,0,0,N
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,0.5,30.78,N
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,1,85.86,N
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,2,178.2,N
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,4,145.8,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,6,72.9,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,8,61.56,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,12,38.88,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,16,24.3,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,24,21.06,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,36,6.48,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,48,4.86,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,72,1.62,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,96,0,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED004,FED,200,168,0,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,0,0,N
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,0.5,61.56,N
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,1,171.72,N
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,2,356.4,N
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,4,291.6,N
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,6,145.8,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,8,123.12,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,12,77.76,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,16,48.6,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,24,42.12,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,36,12.96,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,48,9.72,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,72,3.24,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,96,0,Y
+EXAMT-01-02,SAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED005,FAST,200,168,0,Y
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,0,0,N
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,0.5,123.12,N
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,1,343.44,N
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,2,712.8,N
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,4,583.2,Y
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,6,291.6,Y
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,8,246.24,Y
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,12,155.52,Y
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,16,97.2,Y
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,24,84.24,Y
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,36,25.92,Y
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,48,19.44,Y
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,72,6.48,Y
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,96,0,Y
+EXAMT-01-02,MAD,Serum,200 mg EXAMT-02,EXAMT-02,BLINDED006,FAST,200,168,0,Y
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
