@@ -13,7 +13,7 @@ The dashboard has several sections:
 
 Some screenshots are below:
 
-
+![Alt Text](assets/dashboard.jpeg)
 ## Setup
 
 ### Leaderboard and software development

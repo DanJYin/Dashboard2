@@ -27,7 +27,9 @@ countfig = go.FigureWidget()
 countfig.add_scatter(name="Treatment A", x=df2['Time'], y=df2['Concentration'], fill='tozeroy', line_shape='spline')
 countfig.add_scatter(name="Treatment B", x=df2['Time'], y=df2['Conc2'], fill='tozeroy', line_shape='spline')
 countfig.update_layout(title="Time vs. Concentration", xaxis_title="Time (h)", yaxis_title="Concentration (ng/mL)",
-                       plot_bgcolor="rgba(0, 0, 0, 0)", paper_bgcolor="rgba(0, 0, 0, 0)")
+                       plot_bgcolor="rgba(0, 0, 0, 0)", paper_bgcolor="rgba(0, 0, 0, 0)",
+                       width=400,  # Set the width of the plot
+    height=300)  # Set the height of the plot)
 
 
 # Parameters Overview Plot
@@ -51,7 +53,12 @@ for subject in subjects2:
                              mode='lines+markers',
                              line_shape='spline')
 countfig_cum.update_layout(title="Individual Profiles", xaxis_title="Time (h)", yaxis_title="Concentration (ng/mL)",
-                           plot_bgcolor="rgba(0, 0, 0, 0)", paper_bgcolor="rgba(0, 0, 0, 0)")
+                           plot_bgcolor="rgba(0, 0, 0, 0)", paper_bgcolor="rgba(0, 0, 0, 0)",width=400,  # Set the width of the plot
+    height=300,legend=dict(
+        font=dict(
+            size=10  # Adjust the font size of the legend
+        )
+    ))  # Set the height of the plot))
 
 # Individual Profiles Plot
 cus = go.FigureWidget()
@@ -82,15 +89,18 @@ cus.update_layout(
     bargroupgap=0.1,
     plot_bgcolor="rgba(0, 0, 0, 0)",
     paper_bgcolor="rgba(0, 0, 0, 0)",
-    legend_title_text='Treatment'
-)
+    legend_title_text='Treatment',
+    width=400,  # Set the width of the plot
+    height=300)  # Set the height of the plot)
+
 
 # Correlation Analysis Plot
 figg = go.FigureWidget()
 figg = px.histogram(df, x="parameter", y="concentration", color="type")
 figg.update_layout(title="Parameters by Type", xaxis_title="", yaxis_title="",
                    plot_bgcolor="rgba(0, 0, 0, 0)", paper_bgcolor="rgba(0, 0, 0, 0)",
-                   legend_title_text='', bargap=0.2)
+                   legend_title_text='', bargap=0.2,width=400,  # Set the width of the plot
+    height=300)  # Set the height of the plot))
 
 pirgif = go.FigureWidget(
     px.pie(
@@ -99,12 +109,28 @@ pirgif = go.FigureWidget(
         hole= 0.4
     ))
 pirgif.update_layout(title = "Total concentration of the two treatments",plot_bgcolor="rgba(0, 0, 0, 0)",
-                    paper_bgcolor="rgba(0, 0, 0, 0)")
+                    paper_bgcolor="rgba(0, 0, 0, 0)",width=400,  # Set the width of the plot
+    height=300)  # Set the height of the plot))
 
 sidebar = html.Div(
     [
-        html.H2("Dashboard", className="display-2",style={"color": "white","font-size": "18px","background-color": "#a14842","text-align": "center"}),
-        html.Hr(),
+        html.Div(
+            style={
+                "background-color": "#a14842",
+                "padding": "20px",  # Adjust padding as needed
+                "text-align": "center",
+            },
+            children=[
+                html.H2(
+                    "Dashboard",
+                    style={"color": "white", "font-size": "18px", "margin": "0"},
+                )
+            ]
+        ),
+       html.Div(
+            children=[
+                
+            
         dbc.Nav(
             [
                 dbc.NavLink("Compound Selection", href="/compound_selection", active="exact"),
@@ -119,21 +145,27 @@ sidebar = html.Div(
         ),
         html.Hr(),
         html.P(
-            "Enter the Compound ID for detailed view:", style={"font-size": "14px"}
+            "Enter the Compound ID for detailed view:", style={"font-size": "13px"}
         ),
         dcc.Input(
             id="input_box",
-            placeholder="Enter Compound ID...",
-            style={"margin-top": "20px"}
+            placeholder="Enter ID...",
+            style={"width": "150px", "height": "30px", "margin-top": "0px","font-size": "13px"}
         ),
-        html.P(
-            "This dashboard is designed to provide a comprehensive view of the pharmaceutical development process, "
-            "from compound selection to market analysis. It includes PK/PD data, patient demographics, clinical trial outcomes, "
-            "and market research.", 
-            style={"font-size": "14px", "margin-top": "20px"}
-        ),
+
+       dcc.Dropdown(
+            id="treatment_dropdown",
+            options=[
+                {"label": "Treatment A", "value": "A"},
+                {"label": "Treatment B", "value": "B"},
+                # ... other treatment options
+            ],
+            placeholder="Treatment",
+            style={"margin-top": "10px","width": "150px", "height": "30px","font-size": "13px","margin-bottom": "150px"}
+        )
     ],
-    style={"margin-top": "20px"},
+    style={"margin-top": "0px",
+    "background-color": "#FFCCCC","padding": "10px"})]
 )
 
 
@@ -143,12 +175,14 @@ app.layout = html.Div(style={"background-image": "url('assets/background2.jpg')"
         dbc.Col(sidebar, width=2),  # Sidebar
         dbc.Col([  # Rest of your content
             dbc.Row([
-                Header_component,
+                dbc.Row([""], style={"margin-top": "10px"}),
                 dbc.Col(dbc.NavLink("Main Dashboard", href="/", external_link=True, className="my-custom-link")),
                 dbc.Col(dbc.NavLink("Time-Concentration", href="/time_concentration", external_link=True, className="my-custom-link")),
-                dbc.Col(dbc.NavLink("Parameters Overview", href="/parameters_overview", external_link=True, className="my-custom-link")),
+                dbc.Col(dbc.NavLink("Parameters", href="/parameters_overview", external_link=True, className="my-custom-link")),
                 dbc.Col(dbc.NavLink("Individual Profiles", href="/individual_profiles", external_link=True, className="my-custom-link")),
                 dbc.Col(dbc.NavLink("Correlation Analysis", href="/correlation_analysis", external_link=True, className="my-custom-link")),
+                 dbc.Row([""], style={"margin-top": "5px"}),
+                  html.Hr(),
             ]),
             dbc.Row([
                 dbc.Col([dcc.Graph(figure=countfig)]),

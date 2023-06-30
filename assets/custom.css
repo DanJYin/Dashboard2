@@ -4,6 +4,10 @@
 }
 .my-custom-link {
    border-bottom: 2px solid;
+    border-top: 2px solid;
+     border-left: 2px solid;
+      border-right: 2px solid;
     background-color: #f0928b ;
     text-align: center;
+    padding:10px
 }
